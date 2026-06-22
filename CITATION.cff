@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript once it is available."
+title: "LGBA: Language-Graph Bidirectional Attention for interpretable multimodal molecular learning"
+authors:
+  - family-names: "Li"
+    given-names: "Ziyu"
+version: "0.1.0"

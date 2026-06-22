@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and editor files
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+
+# Secrets and local configuration
+.env
+*.env
+*secret*
+*token*
+*api_key*
+config.local.json
+mimo_llm_config.json
+
+# Large/generated artifacts
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.joblib
+*.zip
+*.rar
+*.7z
+*.docx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.svg
+*.exe
+*.whl
+*.pem
+
+# Local datasets and outputs
+data/raw/
+data/processed/
+models/
+!models/
+models/*
+!models/best_encoder.pth
+!models/smiles_encoder.pth
+!models/vocab-awd.pkl
+!models/vocab-spe.pkl
+!models/vocab.pkl
+checkpoints/
+outputs/
+explain_outputs/
+attention_vis/
+classification_checkpoints/
+regression_checkpoints/
+results/*

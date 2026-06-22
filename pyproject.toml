@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lgba"
+version = "0.1.0"
+description = "Language-Graph Bidirectional Attention for interpretable multimodal molecular learning."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "Ziyu Li" }
+]
+dependencies = [
+  "torch",
+  "fastai",
+  "pandas",
+  "numpy",
+  "scikit-learn",
+  "matplotlib",
+  "rdkit",
+  "tqdm"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 120
