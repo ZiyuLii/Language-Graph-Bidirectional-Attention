@@ -1,0 +1,7 @@
+{
+  "api_key": "YOUR_API_KEY_HERE",
+  "base_url": "https://example.com/v1/chat/completions",
+  "model": "model-name",
+  "temperature": 0,
+  "max_completion_tokens": 4096
+}
